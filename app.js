@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return time.toUTCString();
   };
 
-  currentDay.textContent = getCurrentDayOfTheWeek();
-  utcTime.textContent = getUTCTime();
+  // currentDay.textContent = getCurrentDayOfTheWeek();
+  // utcTime.textContent = getUTCTime();
   slackUserName.textContent = "Akin-Thomas Bishop";
 });
